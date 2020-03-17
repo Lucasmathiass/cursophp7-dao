@@ -1,0 +1,72 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	color:white;
+	border-radius: 5px;
+}
+body{
+	background-color: #1e272e;
+	width: 100vw;
+	overflow: hidden;
+}
+#header{
+	width: 98%;
+	height: 70px;
+	display: block;
+	line-height: 70px;
+	padding-left: 20px;
+	font-family: Roboto;
+	color: white;
+	background: #2d3436;
+	margin: 5px;
+}
+
+.box-form{
+	width: 100%;
+	height: 400px;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+input{
+	margin-top:70px;
+	width: 300px;
+	margin: 10px;
+	border: none;
+	height: 50px;
+	background: #2d3436;
+}
+
+#produto, {
+	width:460px;
+	font-size: 15px;
+}
+#ingredientes{
+	width:470px;
+	font-size: 15px;
+}
+#select{
+	  /* Remove estilo padrão do Chrome */
+  	margin: 10px;
+   appearance: none; /* Remove estilo padrão do FireFox*/
+   width: 250px; /* Tamanho do select, maior que o tamanho da div "div-select" */
+   height:50px; /* Altura do select, importante para que tenha a mesma altura em todo os navegadores */
+   border:1px solid #ddd;
+   background: #2d3436;
+   border: none;
+   color: white;
+}
+#bt{
+	width: 150px;
+	background-color: #27ae60;
+	border: none;
+	padding: 15px;
+	border-radius: 5px;
+	margin: 10px;
+}
+#valor{
+	width: 70px;
+}
+#tamanho{
+	width: 60px;
+}
